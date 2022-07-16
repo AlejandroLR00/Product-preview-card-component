@@ -1,0 +1,65 @@
+:root{
+    /* Primary */
+
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    /* Neutral */
+
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    background-color: var(--Cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card{
+    background-color: var(--White);
+    width: 21rem;
+    border-radius: 1rem;
+    overflow: hidden;
+
+}
+
+.car__img--img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card__sumary{
+    padding: 1rem 1.5rem;
+}
+
+.card__sumary--text{
+    letter-spacing: .4rem;
+}
+
+.card__sumary--font{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--Dark-grayish-blue);
+}
+
+.card__sumary--paragraph{
+    font-size: .8rem;
+    line-height: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.card__sumary--title{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
