@@ -39,6 +39,10 @@ body{
     object-fit: contain;
 }
 
+.card__img--desktop{
+    width: 0;
+}
+
 .card__sumary{
     padding: 1rem 1.5rem;
     position: relative;
