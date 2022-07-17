@@ -107,6 +107,15 @@ body{
     /* font-weight: 700; */
 }
 
+.attribution {
+    position: absolute;
+    bottom: -55px;
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 @media screen and (min-width: 1400px){
     .card{
         display: flex;
@@ -148,6 +157,10 @@ body{
 
     .card__sumary--link:hover{
         background-color: hsl(158, 37%, 17%);
+    }
+
+    .attribution{
+        bottom: 50px;
     }
     
 }
