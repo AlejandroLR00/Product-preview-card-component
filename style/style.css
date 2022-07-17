@@ -109,14 +109,14 @@ body{
 
 .attribution {
     position: absolute;
-    bottom: -55px;
+    bottom: 0px;
     font-size: 11px; text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1000px){
     .card{
         display: flex;
         width: 37rem;
@@ -160,7 +160,7 @@ body{
     }
 
     .attribution{
-        bottom: 50px;
+        bottom: 0px;
     }
     
 }
